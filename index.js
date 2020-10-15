@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+const generateMarkdown = require("./utils/generateMarkdown")
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -48,33 +49,11 @@ function promptUser() {
       }
   ]);
 }
-function generateMD(questions) {
-    return `
-    #${questions.title}
-  
-    ##Description:
-    ${questions.description}
-    
-    ##Table of Contents
-    
-    ##Installation
-    ${questions.installation}
-    ##Usage
-    ${questions.usage}
-    ##License
-    
-    ##Contributing
-    ${questions.contribute}
-    ##Tests
-    ${questions.test}
-    ##Questions
-    My Github username is https://github.com/${questions.github}.
-    Reach out to me at ${questions.email} with any questions!`;
-  }
+
   
   promptUser()
   .then(function(answers) {
-    const MD = generateMD(answers);
+    const MD = generateMarkdown(answers);
 
     return writeFileAsync("README.md", MD);
   })
