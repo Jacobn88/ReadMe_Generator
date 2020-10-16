@@ -15,9 +15,11 @@
   - [Questions](#questions) 
 
   ## Installation
-  clone the repo and install dependancies
+  Clone the repo and install dependancies
   ## Usage
+  Video:
   https://drive.google.com/file/d/1-xpf2ngGaMWahbPbT_PX0HqKlx8UX_LV/view
+  ![](images/readmegen.PNG)
   ## License
   Uses Eclipse Public License 1.0.
   ## Contributing Guidelines
@@ -27,3 +29,4 @@
   ## Questions
   My Github: https://github.com/jacobn88.
   Reach out to me at nelsonjacob1988@gmail.com with any questions!
+ 
