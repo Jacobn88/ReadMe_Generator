@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   ${data.usage}
   ## License
   Uses ${data.license}.
-  ## Contributing
+  ## Contributing Guidelines
   ${data.contribute}
   ## Tests
   ${data.test}

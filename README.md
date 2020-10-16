@@ -1,9 +1,9 @@
 
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
   # Readme-Generator
   
   ## Description:
-  Command line tool for making your readme!
+  A command line tool for creating your readme!
   
   ## Table of Contents
   
@@ -15,15 +15,15 @@
   - [Questions](#questions) 
 
   ## Installation
-  Clone the repo and install dependancies
+  clone the repo and install dependancies
   ## Usage
-  node index.js
+  https://drive.google.com/file/d/1-xpf2ngGaMWahbPbT_PX0HqKlx8UX_LV/view
   ## License
-  Uses IBM Public License Version 1.0.
-  ## Contributing
+  Uses Eclipse Public License 1.0.
+  ## Contributing Guidelines
   None
   ## Tests
   None
   ## Questions
-  My Github https://github.com/Jacobn88.
-  Reach out to me at nelsonJacob1988@gmail.com with any questions!
+  My Github: https://github.com/jacobn88.
+  Reach out to me at nelsonjacob1988@gmail.com with any questions!
